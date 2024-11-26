@@ -5,3 +5,6 @@ menu.addEventListener("click", function() {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
 })
+
+const logos = document.querySelector(".rotating-logos-track").cloneNode(true)
+document.querySelector(".rotating-logos").appendChild(logos)
